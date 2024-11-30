@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 /* GENERAL */
-html {
-    scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
     margin: 0;
@@ -18,13 +16,9 @@ h5, h6 {
     line-height: 2; /* Tighten line spacing */
 }
 
-ul {
-    list-style: none;
-}
+ul { list-style: none; }
 
-p {
-    color: rgb(85, 85, 85);
-}
+p { color: rgb(85, 85, 85);}
 
 a {
     color: black;
@@ -77,9 +71,7 @@ a:hover {
     box-shadow: 0 6px 10px #212121;
 }
 
-.card-client:hover {
-    transform: translateY(-15px);
-}
+.card-client:hover { transform: translateY(-15px); }
 
 .user-picture {
     overflow: hidden;
@@ -108,7 +100,6 @@ a:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
 }
 
-
 .name-client {
     margin: 3rem 0 0;
     font-weight: 600;
@@ -122,6 +113,29 @@ a:hover {
     font-size: 16px;
 }
 
+#type-writer-container { display: inline-block}
+
+.type-writer-text {
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(18),
+    cursor .4s step-end infinite alternate;
+
+}
+
+/* CURSOR BLINKING */
+@keyframes cursor {
+    50% { border-color: transparent }
+
+}
+
+@keyframes typing {
+    from {width: 0 }
+
+}
 .example-2 {
     display: flex;
     justify-content: center;
@@ -169,9 +183,7 @@ a:hover {
     transition: all 0.3s ease-in-out;
 }
 
-.example-2 .icon-content a:hover {
-    box-shadow: 3px 2px 45px 0 rgb(0 0 0 / 12%);
-}
+.example-2 .icon-content a:hover { box-shadow: 3px 2px 45px 0 rgb(0 0 0 / 12%); }
 
 .example-2 .icon-content a svg {
     position: relative;
@@ -180,9 +192,7 @@ a:hover {
     height: 30px;
 }
 
-.example-2 .icon-content a:hover {
-    color: white;
-}
+.example-2 .icon-content a:hover { color: white; }
 
 .example-2 .icon-content a .filled {
     position: absolute;
@@ -195,19 +205,13 @@ a:hover {
     transition: all 0.3s ease-in-out;
 }
 
-.example-2 .icon-content a:hover .filled {
-    height: 100%;
-}
+.example-2 .icon-content a:hover .filled { height: 100%; }
 
 .example-2 .icon-content a[data-social="linkedin"] .filled,
-.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
-    background-color: #0274b3;
-}
+.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip { background-color: #0274b3; }
 
 .example-2 .icon-content a[data-social="github"] .filled,
-.example-2 .icon-content a[data-social="github"] ~ .tooltip {
-    background-color: #24262a;
-}
+.example-2 .icon-content a[data-social="github"] ~ .tooltip { background-color: #24262a; }
 
 .example-2 .icon-content a[data-social="instagram"] .filled,
 .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
@@ -223,9 +227,7 @@ a:hover {
 }
 
 .example-2 .icon-content a[data-social="youtube"] .filled,
-.example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
-    background-color: #ff0000;
-}
+.example-2 .icon-content a[data-social="youtube"] ~ .tooltip { background-color: #ff0000; }
 
 /* ABOUT ME */
 #about-me {
@@ -236,6 +238,56 @@ a:hover {
     padding-right: 7rem;
     padding-top: 4rem;
 }
+
+.card {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(235, 233, 230);
+    box-shadow: 20px 20px 60px #bebebe,
+    -20px -20px 60px #ffffff;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.card__content {
+    text-align: center;
+    width: 100vh;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+
+.circle {
+    padding: 0 4px;
+}
+
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}
+
+
+
 
 #about-section-headliner {
     text-align: center;
@@ -249,6 +301,7 @@ a:hover {
       padding-top: 10rem;
   }
 
+/* CARD */
 .card {
     position: relative;
     width: 200px;
@@ -315,6 +368,7 @@ a:hover {
     }
 }
 
+/* FOOTER */
 footer {
     padding-top: 10rem;
     display: flex;
