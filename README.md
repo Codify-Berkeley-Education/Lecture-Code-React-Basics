@@ -20,9 +20,9 @@ cd lectureCodeReactBasics
 ```bash
 npx create-react-app codifyeduweb
 ```  
-3️⃣ **Open `App.js` should be under src directory**  
+3️⃣ **Open `codifyeduweb` should be under src directory**  
 ```
-Make sure you go to the newly created dir named codifyeduweb this is the most important step
+cd codifyeduweb
 ```  
 4️⃣ **Run the app**  
 ```bash
