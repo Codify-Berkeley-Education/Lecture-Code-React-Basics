@@ -16,19 +16,15 @@ This lab is about **building a basic website in React** using stuff we've alread
 ```bash
 cd lectureCodeReactBasics
 ```  
-2️⃣ **Create react app.**  
-```bash
-npx create-react-app codifyeduweb
-```  
-3️⃣ **Open `codifyeduweb` should be under src directory**  
+2️⃣ **Open `codifyeduweb` should be under src directory**  
 ```
 cd codifyeduweb
 ```  
-4️⃣ **Run the app**  
+3️⃣ **Run the app**  
 ```bash
 npm start
 ```
-5️⃣ **Copy and paste the following onto new tab**  
+4️⃣ **Copy and paste the following onto new tab**  
 ```bash
  http://localhost:3000
 ```  
