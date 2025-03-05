@@ -18,7 +18,7 @@ cd lectureCodeReactBasics
 ```  
 2️⃣ **If you don’t have a React app yet, create one**  
 ```bash
-npx create-react-app .
+npx create-react-app codifyeduweb
 ```  
 3️⃣ **Replace the default `App.js` with the one we provide**  
 ```bash
