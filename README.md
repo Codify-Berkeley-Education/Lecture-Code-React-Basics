@@ -16,7 +16,7 @@ This lab is about **building a basic website in React** using stuff we've alread
 ```bash
 cd lectureCodeReactBasics
 ```  
-2️⃣ **If you don’t have a React app yet, create one. You should have one already.**  
+2️⃣ **Create react app.**  
 ```bash
 npx create-react-app codifyeduweb
 ```  
