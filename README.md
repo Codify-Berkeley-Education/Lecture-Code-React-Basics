@@ -20,9 +20,8 @@ cd lectureCodeReactBasics
 ```bash
 npx create-react-app codifyeduweb
 ```  
-3️⃣ **Replace the default `App.js` with the one we provide**  
-```bash
-mv ~/Downloads/App.js src/App.js
+3️⃣ **Open `App.js` should be under src directory**  
+```
 ```  
 4️⃣ **Run the app**  
 ```bash
