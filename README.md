@@ -27,6 +27,10 @@ cd codifyeduweb
 4️⃣ **Run the app**  
 ```bash
 npm start
+```
+5️⃣ **Copy and paste the following onto new tab**  
+```bash
+ http://localhost:3000
 ```  
 
 ---
