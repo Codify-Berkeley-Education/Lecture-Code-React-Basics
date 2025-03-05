@@ -22,6 +22,7 @@ npx create-react-app codifyeduweb
 ```  
 3️⃣ **Open `App.js` should be under src directory**  
 ```
+Make sure you go to the newly created dir named codifyeduweb this is the most important step
 ```  
 4️⃣ **Run the app**  
 ```bash
