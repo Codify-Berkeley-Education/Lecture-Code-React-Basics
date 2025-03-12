@@ -1,54 +1,75 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### README.md
 
-Currently, two official plugins are available:
+```markdown
+# React Basics Lecture Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is set up to demonstrate the basics of React, including component-based architecture, state management, props passing, event handling, and conditional rendering.
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/en/) (v12.x or later)
+- [npm](https://www.npmjs.com/) (v6.x or later)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+This project uses Vite as a build tool and React 17 or newer.
+
+## Getting Started
+
+Follow these steps to get the project up and running on your local machine for development and testing purposes.
+
+### Cloning the Repository
+
+To clone the repository and navigate into the project directory, run the following commands:
+
+```bash
+git clone git@github.com:Codify-Berkeley-Education/Lecture-Code-React-Basics.git
+cd your-project-directory
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Installing Dependencies
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+Once you are in the project directory, install the necessary dependencies by running:
+
+```bash
+npm install
 ```
+
+This command reads the `package.json` file and installs all the required libraries and packages needed for the project.
+
+### Running the Development Server
+
+To start the development server, execute:
+
+```bash
+npm run dev
+```
+
+This command will compile the React application and open it in your default web browser.
+
+### Navigating the Application
+
+The application includes a simple navigation system that allows you to switch between different "pages":
+- Home
+- About Us
+- Services
+- Contact
+
+These options demonstrate how React manages state and renders components conditionally based on user interaction.
+
+## Additional Information
+
+- **Component Structure**: This project breaks down the UI into reusable components, making it easier to manage and scale.
+- **State Management**: State is managed locally within the `Website` component using React's `useState` hook.
+- **Props**: Data is passed down to child components via props, demonstrating a typical parent-child communication in React.
+- **Event Handling**: User interactions are handled using onClick event listeners, showcasing basic event handling in React.
+- **Conditional Rendering**: The application conditionally renders components based on the current state, which is a fundamental concept in React for building dynamic user interfaces.
+
+## Support
+
+For additional help or further customization, consult the React documentation or contact the development team.
+
+```
+
+This README provides a complete guide to setting up and understanding the structure and functionality of your React application. It’s structured to be helpful for both experienced developers and those new to React or your project. Adjust the repository URL and any specific project details as necessary.
